@@ -1,0 +1,232 @@
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+
+    .right-header-content {
+        display: block !important;
+        text-align: center;
+        li {
+            display: inline-block;
+        }
+    }
+    .left-header-content {
+        justify-content: space-between!important;
+    }
+    .dashboard-main-content .profile-fillter .fillter {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .dashboard-main-content .single-features {
+        padding: 20px;
+    }
+    .dashboard-main-content .job-list-content {
+        padding: 10px;
+    }
+    .single-Joblist-wrap {
+        .d-flex {
+            display: block !important;
+        }
+    }
+    .dashboard-main-content .single-Joblist-wrap .single-Joblist .perfect {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .ms-3 {
+        margin-left: 0!important;
+    }
+    .dashboard-main-content .single-Joblist-wrap .single-Joblist .new {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .dashboard-main-content .single-Joblist-wrap .single-Joblist .count {
+        margin-bottom: 10px;
+    }
+    .dashboard-main-content .job-list-content h3 {
+        margin-bottom: 10px;
+    }
+    .dashboard-main-content .chat-sidebar {
+        padding: 20px;
+    }
+    .dashboard-main-content .chat-details {
+        padding: 20px;
+    }
+    .dashboard-main-content .chat-details .chat-list .single-chat p {
+        padding: 15px;
+    }
+
+    .dashboard-main-content {
+        .applications-content {
+            overflow: auto;
+            .table {
+                thead {
+                    tr {
+                        th {
+                            white-space: nowrap;
+                            padding: 24px 60px;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            white-space: nowrap;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .dashboard-main-content .applications-content .table tbody tr td img {
+        width: 20px;
+    }
+    .dashboard-main-content .applications-content {
+        padding: 20px;
+    }
+    .dashboard-main-content .my-profile-content .media-upload li.profile-img {
+        margin-top: 0;
+    }
+    .dashboard-main-content .my-profile-content {
+        padding: 20px;
+    }
+    .dashboard-main-content .my-profile-content .form-profile .form-group .btn-list li {
+        margin-right: 0;
+    }
+    .dashboard-main-content .my-profile-content .experience-wrap .experience-list .single-experience {
+        display: block !important;
+    }
+    ul.d-flex.align-items-center.delete-edit {
+        margin-top: 15px;
+    }
+    .dashboard-main-content .my-profile-content .mb-500 {
+        margin-bottom: 50px;
+    }
+    .dashboard-main-content .my-profile-content .form-profile.need-border {
+        padding: 15px;
+    }
+    .dashboard-main-content .settings-content {
+        padding: 20px;
+    }
+    .user-profile-content {
+       .user-d {
+        display: block !important;
+       }
+    }
+    .user-profile-content .profile-img .social-link {
+        text-align: left !important;
+        margin-top: 20px;
+        li {
+            display: inline-block;
+        }
+    }
+    .user-profile-content .profile-img {
+        top: 0;
+    }
+    .default-btn {
+        padding: 10px 13px;
+        font-size: 12px;
+    }
+    .user-profile-content .company-profile-info {
+        margin-top: 0;
+        padding: 20px;
+    }
+    .user-profile-content .connect-btn {
+        width: auto;
+    }
+    .user-d-block {
+        display: block !important;
+    }
+    .dashboard-main-content .single-pipeline-wrap {
+        margin-top: 30px;
+    }
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .dashboard-main-content {
+        .applications-content {
+            overflow: auto;
+            .table {
+                thead {
+                    tr {
+                        th {
+                            white-space: nowrap;
+                            padding: 24px 60px;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            white-space: nowrap;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .dashboard-main-content .applications-content .table tbody tr td img {
+        width: 20px;
+    }
+}
+
+/* Only Mobil Menu Max width 991px */
+@media only screen and (max-width: 1500px) {
+
+    .header-area {
+        padding-left: 12px;
+        padding-right: 12px;
+        .responsive-burger-menu {
+            cursor: pointer;
+            transition: all ease 0.5s;
+            margin-left: 10px;
+            display: block;
+            span {
+                height: 1px;
+                width: 25px;
+                background: #fff;
+                display: block;
+                margin: 6px 0;
+                transition: all 0.5s ease-in-out;
+                margin: auto;
+                margin-bottom: 6px;
+            }
+            &.active {
+                span {
+                    &.top-bar {
+                        transform: rotate(45deg);
+                        transform-origin: 10% 10%;
+                    }
+                    &.middle-bar {
+                        opacity: 0;
+                    }
+                    &.bottom-bar {
+                        transform: rotate(-45deg);
+                        transform-origin: 10% 90%;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .sidebar-menu-area {
+        left: -100%;
+        transition: all ease 0.5s;
+        z-index: 99;
+        max-width: 330px;
+        &.active-sidemenu-area {
+            left: 0;
+        }
+    }
+    .dashboard-main-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .left-header-content li {
+        margin-right: 0;
+    }
+    .sidebar-menu-area {
+        padding-top: 30px;
+    }
+
+}
